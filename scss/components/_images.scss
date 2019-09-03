@@ -1,0 +1,6 @@
+.thumbnail img{  
+	margin: .5em; 
+	@media (min-width: 480px){
+		margin: 1em; 
+	}
+}

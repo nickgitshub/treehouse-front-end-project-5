@@ -1,0 +1,36 @@
+
+@mixin center {
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#photo-gallery {
+	 @include center; 
+}
+
+#search-bar{
+	@include center; 
+	margin: 2em;
+	input{
+		font-size: .75em; 
+		border-color: black; 
+		border-radius: 9999em; 
+		padding: 3px;
+		&:focus{
+			transform: scale(1.1);
+			outline: none; 
+		}
+
+		@media (min-width: 480px){
+		font-size: 1em;
+		&:focus{
+			transform: scale(1.35);
+			}
+		}
+	}
+
+	
+}
