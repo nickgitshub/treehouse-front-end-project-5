@@ -497,4 +497,13 @@ ul, ol {
   }
 }
 
+a {
+  width: 80%;
+}
+@media (min-width: 480px) {
+  a {
+    width: 20%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
