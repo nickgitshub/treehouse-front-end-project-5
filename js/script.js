@@ -75,7 +75,7 @@ function addPictures(arr){
 			jpgText = jpgVar + ".jpg"
 		}
 
-		html += "<a class=\"thumbnail\" href=\"photos/thumbnails/" + jpgText +"\" data-lightbox=\"photoGallery\" data-title=\"" + myCaption + "\">" 
+		html += "<a class=\"thumbnail\" href=\"photos/" + jpgText +"\" data-lightbox=\"photoGallery\" data-title=\"" + myCaption + "\">" 
 		html += "<img id= \"" + photoCaptions[arr[n]].title + "\" " + "src=\"photos/thumbnails/" + jpgText +"\">";
 		html += "</a>"
 	}
